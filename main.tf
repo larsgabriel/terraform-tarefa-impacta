@@ -33,7 +33,7 @@ provider "azurerm" {
 //azurerm_resource_group id do resouce encontrado na documentação ---- rg-aulainfracloud - nome variavel pra ser chamado dentro do arquivo.
 resource "azurerm_resource_group" "rg-aulainfracloud" {
   name     = "aulainfracloudterraform"
-  location = "eastus"
+  location = "australiaeast"
 }
 
 //criando outro recurso uma maquina virtual ou rede virtual pra service de pont de acesso aos artefatos que estarão aqui dentro
